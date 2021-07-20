@@ -11,19 +11,24 @@ background-color:bisque;
 border-radius: 25px;
 box-shadow: 15px -15px teal;
 }
+.slogan-container {
+    margin-right: 100px;
+}
 .intro-container {
-text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 .intro {
-font-size: 80px;
-text-align: center;
-background: wheat;
-display:inline-block;
+font-size: 120px;
 padding:15px;
-border-radius: 25px;
-box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
-color: black;
+border-radius: 25px;;
+color: white;
 }
+.welcome {
+color: #E0EEC6;
+font-size: 40px;
+}
+
 ul {
 list-style-type: none;
 }
