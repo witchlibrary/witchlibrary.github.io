@@ -8,12 +8,15 @@
   .navbar a {
     float: right;
     font-size: 36px;
-    color: #E0EEC6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     margin-right: 50px;
   }
+
+.sublink {
+  color: #E0EEC6;
+}
   
   .dropdown {
     float: left;
@@ -32,8 +35,9 @@
     margin: 0;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .mainlink {
+    background-color: #E0EEC6;
+    color:#63372C;
   }
   
   .dropdown-content {

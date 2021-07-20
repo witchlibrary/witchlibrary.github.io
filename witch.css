@@ -19,6 +19,8 @@ box-shadow: 15px -15px teal;
 .logo {
 margin-top: 30px;
 margin-left: 70px;
+max-width: 100%;
+height: auto;
 }
 .slogan-container {
     margin-right: 100px;
