@@ -4,6 +4,7 @@ body {
 }
 .page {
     background: linear-gradient(#626F53, #626F53 85%,#C4C4C4, #C4C4C4 100%);
+    
     margin: 0;
     color: white;
     
@@ -35,6 +36,7 @@ padding:15px;
 border-radius: 25px;;
 color: white;
 margin-top: 10px;
+margin-bottom: 10px;
 }
 .welcome {
 color: #E0EEC6;
@@ -89,4 +91,5 @@ footer {
     text-align:center;
     background:#C4C4C4;
     color:#808080;
+    font-size: 25px;
 }
