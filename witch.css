@@ -11,6 +11,11 @@ background-color:bisque;
 border-radius: 25px;
 box-shadow: 15px -15px teal;
 }
+.logo {
+margin-top: 30px;
+margin-left: 70px;
+}
+}
 .slogan-container {
     margin-right: 100px;
 }
@@ -27,6 +32,7 @@ color: white;
 .welcome {
 color: #E0EEC6;
 font-size: 40px;
+margin-right: 40px;
 }
 
 ul {
