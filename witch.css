@@ -1,5 +1,5 @@
 @media screen and (orientation:portrait) {
-    html {
+    .intro {
         font-size: 10px;
     }
 }
