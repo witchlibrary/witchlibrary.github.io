@@ -15,7 +15,7 @@ function myFunction() {
   }
   let arrow = document.querySelector('.arrow');
   window.onscroll = function () {
-  if (window.pageYOffset > 85) {
+  if (window.pageYOffset > 300) {
       arrow.style.display = "none";
   } else {arrow.style.display = "block"};
 }

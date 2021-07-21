@@ -116,6 +116,12 @@ footer {
     .logo1 {
         display: none;
     }
+    .intro-container {
+        display:block;
+    }
+    .fakeass {
+        display:none;
+    }
 }
 @media screen and (orientation:landscape) {
     .intro {
