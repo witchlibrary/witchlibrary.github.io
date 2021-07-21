@@ -27,7 +27,7 @@ top: 10%;
 .logo2 {
     display:none;
     max-width: 100%;
-width: 25vw;
+width: 35vw;
 height: auto;
 }
 
@@ -60,6 +60,9 @@ font-size: 2rem;
 padding:10px;
 }
 
+.centered {
+    text-align: center;
+}
 
 .rectangle {
     position: absolute;
@@ -82,7 +85,7 @@ display:inline-block;
 padding: 10px;
 }
 .get-started {
-font-size: 40px;
+font-size: 3rem;
 background: #63372C;
 text-decoration: none;
 color: white;
@@ -126,10 +129,10 @@ footer {
         display:block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 5vh;
     }
     .intro-container {
         display:block;
-        text-align:center;
         margin: 2vw;
     }
     .fakeass {
@@ -140,6 +143,9 @@ footer {
     }
     .welcome {
         font-size: 1rem;
+    }
+    .get-started {
+        font-size: 2rem;
     }
 }
 @media screen and (orientation:landscape) {
