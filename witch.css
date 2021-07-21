@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 .page {
-    background: linear-gradient(#626F53, #626F53 85%,#C4C4C4, #C4C4C4 100%);
+    background: #626F53;
     
     margin: 0;
     color: white;
@@ -26,9 +26,11 @@ top: 10%;
 }
 
 .arrow {
-    margin-top: 4vh;
-    position : fixed;
-    margin-left: 17vw; 
+    position:fixed;
+    bottom:0;
+    right: 0;
+    margin-right: 2vw;
+    margin-bottom: 4vh;
 }
 .slogan-container {
     margin-right: 100px;
@@ -37,7 +39,6 @@ top: 10%;
     margin-top: 50px;
 display: grid;
 grid-template-columns: 45vw 1fr;
-grid-template-rows: 1fr 1fr;
 }
 .intro {
 font-size: 7vw;
@@ -88,6 +89,8 @@ border-radius: 25px;
     text-align:center;
     background:#C4C4C4;
     color:#808080;
+    display:grid;
+    grid-template-columns: 45vw 1fr;
 }
 .warning {
     margin-top: 200px;
@@ -98,7 +101,6 @@ footer {
     padding: 1px;
     margin: 0;
     text-align:center;
-    background:#C4C4C4;
     color:#808080;
     font-size: 25px;
 }
@@ -115,4 +117,7 @@ footer {
     .intro {
         font-size: 5vw;
     }
+}
+.fakeass {
+    width:100%;
 }
