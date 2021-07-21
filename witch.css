@@ -1,13 +1,5 @@
-@media screen and (orientation:portrait) {
-    .intro {
-        font-size: 2rem;
-    }
-}
-@media screen and (orientation:landscape) {
-    .intro {
-        font-size: 3rem;
-    }
-}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -23,6 +15,7 @@ body {
 margin-top: 6vh;
 margin-left: 2vw;
 max-width: 100%;
+width: 25vw;
 height: auto;
 position : fixed;
 left: 5%;
@@ -105,4 +98,14 @@ footer {
 .button-container {
     box-sizing:border-box;
     padding-top:60px;
+}
+@media screen and (orientation:portrait) {
+    .intro {
+        font-size: 2rem;
+    }
+}
+@media screen and (orientation:landscape) {
+    .intro {
+        font-size: 3rem;
+    }
 }
