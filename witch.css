@@ -1,15 +1,12 @@
 @media screen and (orientation:portrait) {
     .intro {
-        font-size: 10px;
+        font-size: 2rem;
     }
 }
 @media screen and (orientation:landscape) {
-    html {
-        font-size: 10px;
+    .intro {
+        font-size: 3rem;
     }
-}
-html {
-    font-size: 15px;
 }
 body {
     margin: 0;
