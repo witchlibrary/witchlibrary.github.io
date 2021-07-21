@@ -124,6 +124,8 @@ footer {
     }
     .logo2 {
         display:block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .intro-container {
         display:block;
@@ -132,6 +134,12 @@ footer {
     }
     .fakeass {
         display:none;
+    }
+    .slogan-container {
+        margin-right: 0;
+    }
+    .welcome {
+        font-size: 1rem;
     }
 }
 @media screen and (orientation:landscape) {
