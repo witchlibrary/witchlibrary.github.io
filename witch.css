@@ -114,6 +114,7 @@ footer {
 @media screen and (orientation:portrait) {
     .intro {
         font-size: 3rem;
+        margin-top: 15vh;
         
     }
     .logo1 {
