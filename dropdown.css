@@ -3,6 +3,9 @@
     background-color: #626F53;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid #E0EEC6;
+    position : fixed;
+    width:100%;
+    left:0;top:0
   }
   
   .navbar a {
