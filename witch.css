@@ -24,6 +24,12 @@ left: 5%;
 top: 10%;
 
 }
+.logo2 {
+    display:none;
+    max-width: 100%;
+width: 25vw;
+height: auto;
+}
 
 .arrow {
     position:fixed;
@@ -116,8 +122,13 @@ footer {
     .logo1 {
         display: none;
     }
+    .logo2 {
+        display:block;
+    }
     .intro-container {
         display:block;
+        text-align:center;
+        margin: 2vw;
     }
     .fakeass {
         display:none;
