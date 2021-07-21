@@ -11,8 +11,8 @@ body {
     color: white;
     
 }
-.logo {
-margin-top: 6vh;
+.logo1 {
+margin-top: 10vh;
 margin-left: 2vw;
 max-width: 100%;
 width: 25vw;
@@ -111,6 +111,10 @@ footer {
 @media screen and (orientation:portrait) {
     .intro {
         font-size: 2rem;
+        
+    }
+    .logo1 {
+        display: none;
     }
 }
 @media screen and (orientation:landscape) {
