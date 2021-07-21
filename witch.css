@@ -36,7 +36,7 @@ top: 10%;
 .intro-container {
     margin-top: 50px;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 45vw 1fr;
 grid-template-rows: 1fr 1fr;
 }
 .intro {
