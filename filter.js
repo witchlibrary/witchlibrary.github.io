@@ -5,12 +5,12 @@ for (let sel of sels) {
     sel.onclick = function () {
         mainsel.textContent = sel.textContent
         for (let book of books) {
-if (sel.textContent !== book.dataset.topic && sel.textContent !== "All books") {
-book.style.display = "none";
-} else {
-    book.style.display = "block";
-}
+            if (sel.textContent !== book.dataset.topic && sel.textContent !== "All books") {
+                book.style.display = "none";
+            } else {
+                book.style.display = "block";
+            }
         }
-        
+
     }
 }
