@@ -18,13 +18,11 @@ margin-left: 2vw;
 max-width: 100%;
 height: auto;
 position : fixed;
-left: 20%;
+left: 5%;
 
 
-top: 35%;
+top: 10%;
 
-
-transform: translate(-50%, -50%);
 }
 .slogan-container {
     margin-right: 100px;
