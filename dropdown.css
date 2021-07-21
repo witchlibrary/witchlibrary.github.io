@@ -9,7 +9,7 @@
   
   .navbar a {
     float: right;
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,14 +29,13 @@
   
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 16px;  
+    font-size: 1rem;  
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     margin-bottom: 26px;
     min-width: 81px;
-    min-height: 70px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -46,7 +45,7 @@
   }
   .dropdown {
     cursor: pointer;
-    font-size: 16px;  
+    font-size: 1rem;  
     border: none;
     outline: none;
     color: white;
@@ -92,4 +91,10 @@
   .show {
     display: block;
   }
-  
+  @media screen and (orientation:portrait) {
+    .dropdown .dropbtn {
+      max-width: 41px;
+      max-height:31px;
+    
+    }
+  }
