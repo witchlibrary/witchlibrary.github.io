@@ -57,6 +57,7 @@ body {
     right: 0;
     margin-right: 2vw;
     margin-bottom: 4vh;
+    cursor:pointer;
 }
 .slogan-container {
     margin-right: 100px;
