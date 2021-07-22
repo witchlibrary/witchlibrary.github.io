@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .navbar1 {
     display: block;
 }
@@ -47,7 +50,14 @@ body {
     margin-right: 2vw;
     margin-bottom: 4vh;
 }
-
+.uparrow {
+    display:none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2vw;
+    margin-bottom: 4vh;
+}
 .slogan-container {
     margin-right: 100px;
 }
