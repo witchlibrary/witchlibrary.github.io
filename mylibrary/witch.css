@@ -1,0 +1,187 @@
+.navbar1 {
+    display: block;
+}
+
+.navbar2 {
+    display:none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background: #626F53;
+
+    margin: 0;
+    color: white;
+
+}
+
+.logo1 {
+    margin-top: 10vh;
+    margin-left: 2vw;
+    max-width: 100%;
+    width: 25vw;
+    height: auto;
+    position: fixed;
+    left: 5%;
+
+
+    top: 10%;
+
+}
+
+.logo2 {
+    display: none;
+    max-width: 100%;
+    width: 35vw;
+    height: auto;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2vw;
+    margin-bottom: 4vh;
+}
+
+.slogan-container {
+    margin-right: 100px;
+}
+
+.intro-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 45vw 1fr;
+}
+
+.intro {
+    font-size: 7vw;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.welcome {
+    margin-top: 5rem;
+    color: #E0EEC6;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.book-container {
+    text-align: center;
+}
+
+.book {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.get-started {
+    font-size: 3rem;
+    background: #63372C;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+.warning-container {
+    text-align: center;
+    background: #C4C4C4;
+    color: #808080;
+    display: grid;
+    grid-template-columns: 45vw 1fr;
+}
+
+.warning {
+    margin-top: 200px;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+footer {
+    padding: 1px;
+    margin: 0;
+    text-align: center;
+    color: #808080;
+    font-size: 25px;
+}
+
+.button-container {
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+@media screen and (orientation:portrait) {
+    .intro {
+        font-size: 3rem;
+        margin-top: 15vh;
+
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+
+    .intro-container {
+        display: block;
+        margin: 2vw;
+    }
+
+    .fakeass {
+        display: none;
+    }
+
+    .slogan-container {
+        margin-right: 0;
+    }
+
+    .welcome {
+        font-size: 1rem;
+    }
+
+    .get-started {
+        font-size: 2rem;
+    }
+
+    .navbar1 {
+        display: none;
+    }
+
+    .navbar2 {
+        display: block;
+    }
+}
+}
+
+@media screen and (orientation:landscape) {
+    .intro {
+        font-size: 5vw;
+    }
+}
+
+.fakeass {
+    width: 100%;
+}
