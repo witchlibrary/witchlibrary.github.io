@@ -49,6 +49,7 @@ body {
     right: 0;
     margin-right: 2vw;
     margin-bottom: 4vh;
+    display:block;
 }
 .uparrow {
     display:none;

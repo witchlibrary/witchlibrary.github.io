@@ -14,3 +14,14 @@ for (let sel of sels) {
 
     }
 }
+let uparrow = document.querySelector('.uparrow');
+window.onscroll = function () {
+  if (window.pageYOffset < 300) {
+    uparrow.style.display = "none";
+  } else {
+    uparrow.style.display = "block"
+    }
+  };
+uparrow.onclick = function () {
+  window.scrollTo(0, 0);
+};
