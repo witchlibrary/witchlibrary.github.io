@@ -17,6 +17,7 @@
 }
 .bookinfo {
     text-align:left;
+    width: 45vw;
 }
 .bookcover {
     margin-left: auto;
