@@ -1,5 +1,5 @@
 let sels = document.querySelectorAll('.sel');
-let mainsel = document.querySelector('.dropbtn');
+let mainsel = document.getElementById('drop2');
 let books = document.querySelectorAll('.bookitem');
 for (let sel of sels) {
     sel.onclick = function () {
