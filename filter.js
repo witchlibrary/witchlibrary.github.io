@@ -7,6 +7,8 @@ for (let sel of sels) {
         for (let book of books) {
             if (sel.textContent !== book.dataset.topic && sel.textContent !== "All books") {
                 book.style.display = "none";
+            } else if (screen.availHeight > screen.availWidth){
+                book.style.display = "block";
             } else {
                 book.style.display = "grid";
             }
