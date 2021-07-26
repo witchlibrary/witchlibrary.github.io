@@ -7,6 +7,7 @@
     display:grid;
     grid-template-columns: 30% 1fr;
     margin-bottom: 5vh;
+    text-align:center;
 }
 .booktitle {
     font-size: 2rem;
@@ -15,7 +16,7 @@
     font-size: 25px;
 }
 .bookinfo {
-    width: 45vw;
+    text-align:left;
 }
 .bookcover {
     margin-left: auto;
