@@ -1,7 +1,6 @@
 .booklist {
     margin-top: 15vh;
     list-style-type: none;
-    margin-top: 15vh;
 }
 .bookitem {
     display:grid;
@@ -29,11 +28,16 @@
     .bookitem {
         display: block;
     }
+    .booktitle {
+        font-size: 20px;
+    }
     .bookdesc {
         font-size: 15px;
     }
     .bookinfo {
         border: 1px solid black;
         width: auto;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 }
