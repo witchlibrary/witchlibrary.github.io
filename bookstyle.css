@@ -23,3 +23,14 @@
     max-height: 333px;
     max-width: 499px;
 }
+@media screen and (orientation:portrait) {
+    .bookitem {
+        display: block;
+    }
+    .bookdesc {
+        font-size: 15px;
+    }
+    .bookinfo {
+        border: 1px solid black;
+    }
+}

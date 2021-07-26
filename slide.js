@@ -1,3 +1,4 @@
+if(screen.availHeight > screen.availWidth){
 let sliders = document.querySelectorAll( '.bookinfo' );
 let covers = document.querySelectorAll( '.bookcover' );
 var heights = document.querySelectorAll('.bookinfo');
@@ -27,4 +28,4 @@ for (let slider of sliders) {
             
         }, false );
         });
-        
+    } 
