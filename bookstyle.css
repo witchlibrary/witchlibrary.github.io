@@ -48,7 +48,7 @@
     }
 
     .bookcover {
-        margin-right: 5px;
+        margin-right: 0;
     }}
     @media only screen and (max-width: 768px){
         html,
@@ -56,4 +56,8 @@
         width:100%;
         overflow-x:hidden;
         }
+        .uparrow {
+            height: 50px;
+        }
     }
+  
