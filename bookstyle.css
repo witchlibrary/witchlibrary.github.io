@@ -39,6 +39,8 @@
     }
     .bookinfo {
         padding: 2vw;
+        padding-top: 0;
+        padding-bottom:0;
         border: 1px solid black;
         width: auto;
         margin-left: 2vw;
