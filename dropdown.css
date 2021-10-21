@@ -8,12 +8,12 @@
   }
   
   .navbar a {
-    float: right;
     font-size: 2rem;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     margin-right: 50px;
+    float: right;
   }
 
 .sublink {
@@ -42,8 +42,7 @@
     background-repeat: no-repeat;
   }
   .megalogo {
-    max-width: 50px;
-    max-height: 50px;
+    max-height: 64px;
   }
   .dropdown {
     cursor: pointer;

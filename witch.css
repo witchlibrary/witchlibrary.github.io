@@ -41,7 +41,6 @@ body {
     text-decoration: none;
     border-radius: 25px;
     padding: 5px;
-    margin-top: 15px;
 }
 
 .logo2 {
@@ -208,6 +207,9 @@ footer {
 
     .navbar2 {
         display: block;
+    }
+    .iframecontainer {
+        margin-top:80px;
     }
 }
 
