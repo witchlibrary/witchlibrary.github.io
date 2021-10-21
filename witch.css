@@ -97,6 +97,12 @@ body {
     font-size: 2rem;
     padding: 10px;
 }
+.welcome2 {
+    margin-top: 5rem;
+    color: #E0EEC6;
+    font-size: 3rem;
+    padding: 10px;
+}
 
 .centered {
     text-align: center;
