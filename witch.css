@@ -41,6 +41,7 @@ body {
     text-decoration: none;
     border-radius: 25px;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .logo2 {
@@ -163,6 +164,10 @@ footer {
         font-size: 3rem;
         margin-top: 15vh;
 
+    }
+    .gridcontainer {
+        display: block;
+        margin: 2vw;
     }
 
     .logo1 {
