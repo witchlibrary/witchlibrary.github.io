@@ -35,6 +35,13 @@ body {
     top: 10%;
 
 }
+.speciallink {
+    color:#63372C;
+    background-color:#E0EEC6;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px;
+}
 
 .logo2 {
     display: none;
@@ -69,6 +76,11 @@ body {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 45vw 1fr;
+}
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    margin-top: 8vw;
 }
 
 .intro {
@@ -187,7 +199,7 @@ footer {
         display: block;
     }
 }
-}
+
 
 @media screen and (orientation:landscape) {
     .intro {
