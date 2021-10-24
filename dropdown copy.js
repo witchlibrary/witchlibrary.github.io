@@ -3,6 +3,10 @@ toggle between hiding and showing the dropdown content */
 let imgae = document.querySelector('.dropimg');
 
 function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function myFunction2() {
   document.getElementById("myDropdown2").classList.toggle("show");
 }
 
